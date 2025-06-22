@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import greeting from '../src/cli.js'
+import calc from './brain-calc.js';
 import getAsk from './brain-even.js';
-getAsk();
+//getAsk();
+calc();
 
