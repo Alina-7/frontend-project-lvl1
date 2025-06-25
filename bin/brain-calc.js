@@ -1,4 +1,4 @@
-import playGame from '../src/index.js';
+import startGame from '../src/index.js';
 
 const instruction = 'What is the result of the expression?';
 
@@ -30,6 +30,6 @@ function getCalcQuestion () {
 
     }
     }
-playGame(instruction, getCalcQuestion);
+startGame(instruction, getCalcQuestion);
 
 export default getCalcQuestion;
