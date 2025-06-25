@@ -1,39 +1,21 @@
-import readlineSync from 'readline-sync';
-import greeting from '../src/cli.js';
-const name = greeting();
+import playGame from '../src/index.js';
+const instruction = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function getAsk (){
- console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
-   let trueAnswer = 0;
-
-while (trueAnswer < 3) {
+function getEvenQuestion () {
 const number = Math.floor(Math.random() *100) + 1;
- const isEven = number % 2 === 0;
-console.log(`Question: ${number}`);
-const answer = readlineSync.question('Your answer: ').trim().toLowerCase();
+const question = `Question: ${number}`;
+const isEven = number % 2 === 0;
 const correct = isEven ? 'yes' : 'no';
-// console.log(`Your answer: ${answer}`)
-if (answer === "yes" || answer === "no") {
-    if(answer === correct) {
-        trueAnswer++
-        console.log("Correct!")
-    } else {
-        console.log(`${answer} is wrong answer ;(. Correct answer was ${isEven ?'yes' : 'no'}.
-Let's try again, ${name}!` )
-trueAnswer = 0;
-return
-    }
-} else {
- console.log(`${answer} is wrong answer ;(. Correct answer was ${isEven ?'yes' : 'no'}.
-Let's try again, ${name}!` )
-return
+return{
+        instruction: instruction,
+        question: question,
+        correctAnswer: correct
 }
-}
- console.log(`Congratulations, ${name}!`)
 } 
 
-export default getAsk;
+playGame(instruction, getEvenQuestion);
+export default getEvenQuestion;
 
 
  
+
