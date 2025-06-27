@@ -1,7 +1,7 @@
 
-import readlineSync from 'readline-sync';
-import greeting from '../src/cli.js';
-const name = greeting();
+import readlineSync from 'readline-sync'
+import greeting from '../src/cli.js'
+const name = greeting()
 
 function startGame(instruction, getData) {
     console.log(instruction);
@@ -25,4 +25,4 @@ function startGame(instruction, getData) {
     console.log(`Congratulations, ${name}!`);
 }
 
-export default startGame;
+export default startGame

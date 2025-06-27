@@ -1,5 +1,5 @@
-import startGame from '../index.js';
-const instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+import startGame from '../index.js'
+const instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 const isPrime = (number) => {
     if (number < 2) return false;
     if (number === 2) return true;
@@ -23,5 +23,6 @@ function getPrimeQuestion() {
 
 }
 
-startGame(instruction, getPrimeQuestion);
-export default getPrimeQuestion;
+startGame(instruction, getPrimeQuestion)
+export default getPrimeQuestion
+

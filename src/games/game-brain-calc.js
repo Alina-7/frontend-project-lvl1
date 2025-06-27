@@ -1,5 +1,5 @@
-import startGame from '../index.js';
-const instruction = 'What is the result of the expression?';
+import startGame from '../index.js'
+const instruction = 'What is the result of the expression?'
 
 function calculate(firstNumber, secondNumber, operator) {
     switch (operator) {
@@ -26,6 +26,6 @@ function getCalcQuestion() {
         correctAnswer: correct
     }
 }
-startGame(instruction, getCalcQuestion);
+startGame(instruction, getCalcQuestion)
 
-export default getCalcQuestion;
+export default getCalcQuestion

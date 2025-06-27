@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import getGcdQuestion from '../src/games/game-brain-gcd.js';
+import getGcdQuestion from '../src/games/game-brain-gcd.js'
 
-getGcdQuestion();
+getGcdQuestion()

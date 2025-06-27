@@ -1,5 +1,5 @@
-import startGame from '../index.js';
-const instruction = 'Answer "yes" if the number is even, otherwise answer "no".';
+import startGame from '../index.js'
+const instruction = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 function getEvenQuestion() {
         const number = Math.floor(Math.random() * 100) + 1;;
@@ -12,8 +12,9 @@ function getEvenQuestion() {
         }
 }
 
-startGame(instruction, getEvenQuestion);
-export default getEvenQuestion;
+startGame(instruction, getEvenQuestion)
+export default getEvenQuestion
+
 
 
 

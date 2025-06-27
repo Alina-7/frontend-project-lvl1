@@ -1,5 +1,5 @@
-import startGame from '../index.js';
-const instruction = 'Find the greatest common divisor of given numbers.';
+import startGame from '../index.js'
+const instruction = 'Find the greatest common divisor of given numbers.'
 
 const calculateGcd = (a, b) => {
     while (b !== 0) {
@@ -23,6 +23,5 @@ function getGcdQuestion() {
     }
 }
 
-startGame(instruction, getGcdQuestion);
-
-export default getGcdQuestion;
+startGame(instruction, getGcdQuestion)
+export default getGcdQuestion
