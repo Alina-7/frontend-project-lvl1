@@ -3,11 +3,11 @@
 import startGame from '../index.js';
 const instruction = 'What number is missing in the progression?';
 
- function getProgression () {
-        const startNum = Math.floor(Math.random()* 100) + 1;
-        const step = Math.floor(Math.random()* 10) + 1; 
-        const progression = [];
-    for (let i=0; i < 10; i += 1) {
+function getProgression() {
+    const startNum = Math.floor(Math.random() * 100) + 1;
+    const step = Math.floor(Math.random() * 10) + 1;
+    const progression = [];
+    for (let i = 0; i < 10; i += 1) {
         let currentElement = startNum + i * step;
         progression.push(currentElement);
     }
@@ -16,10 +16,10 @@ const instruction = 'What number is missing in the progression?';
 
 
 
-function getrProgQuestion () {
-    const progression = getProgression ()
+function getrProgQuestion() {
+    const progression = getProgression()
     const point = '..';
-    const index = Math.floor(Math.random()* 9) + 1;
+    const index = Math.floor(Math.random() * 9) + 1;
 
     const correct = progression[index];
     progression[index] = point;
