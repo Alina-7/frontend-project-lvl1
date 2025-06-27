@@ -31,28 +31,25 @@
 
 ## Игра Определение четного числа.
 Запуск игры: make brain-even
-Aскинемa brain-even:
-https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
+
+[![asciicast](https://asciinema.org/a/9SLDez5orDMxU3xlThLl55lI2.svg)](https://asciinema.org/a/9SLDez5orDMxU3xlThLl55lI2)
 
 ## Игра Калькулятор.
 Запуск игры: make brain-calc 
 Aскинемa brain-calc:
-https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
+[![asciicast](https://asciinema.org/a/zJ5w8JNwZ51pM6uzGv8xzfrho.svg)](https://asciinema.org/a/zJ5w8JNwZ51pM6uzGv8xzfrho)
 
 ## Игра Определение наибольшего общего делителя. (НОД)
 Запуск игры: make brain-gcd 
-Аскинема brain-gcd:
-https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
+[![asciicast](https://asciinema.org/a/f1VFJD6Soqo4AMgc7WtmTF0qX.svg)](https://asciinema.org/a/f1VFJD6Soqo4AMgc7WtmTF0qX)
 
 ## Игра Прогрессия. Поиск пропущенных чисел в последовательности чисел.
 Запуск игры: make brain-progression 
-Аскинема brain-progression:
-https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
+[![asciicast](https://asciinema.org/a/tIckiLhhfEvz1HYhRHesZyPaG.svg)](https://asciinema.org/a/tIckiLhhfEvz1HYhRHesZyPaG)
 
 ## Игра Определение простого числа.
 Запуск игры: make brain-prime 
-Аскинема brain-prime:
-https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
+[![asciicast](https://asciinema.org/a/uW4VHNqvIrIPjLXphsKQxYTKV.svg)](https://asciinema.org/a/uW4VHNqvIrIPjLXphsKQxYTKV)
 
 
 
