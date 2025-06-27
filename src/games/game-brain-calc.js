@@ -1,5 +1,4 @@
 import startGame from '../index.js';
-
 const instruction = 'What is the result of the expression?';
 
 function calculate (firstNumber, secondNumber, operator) {
@@ -14,7 +13,6 @@ function calculate (firstNumber, secondNumber, operator) {
 }
 
 function getCalcQuestion () {
-     {
     const operators = ['+', '-', '*'];
     const randomIndex = Math.floor(Math.random() * operators.length);
     const firstNumber = Math.floor(Math.random() * 100);
@@ -26,8 +24,6 @@ function getCalcQuestion () {
         instruction: instruction,
         question: task,
         correctAnswer: correct
-    }
-
     }
     }
 startGame(instruction, getCalcQuestion);
