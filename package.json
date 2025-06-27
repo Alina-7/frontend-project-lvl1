@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Alina-7/frontend-project-lvl1#readme",
   "type": "module",
-  "bin": {
+  "games": {
     "brain-games": "src/games/brain-games.js",
     "brain-even": "src/games/brain-even.js",
     "brain-calc": "src/games/brain-calc.js",
