@@ -1,4 +1,4 @@
-import startGame from '../src/index.js';
+import startGame from '../index.js';
 
 const instruction = 'What is the result of the expression?';
 

@@ -1,4 +1,4 @@
-import startGame from "../src/index.js";
+import startGame from '../index.js';
 const instruction = 'Find the greatest common divisor of given numbers.';
 
 const calculateGcd = (a, b) => {

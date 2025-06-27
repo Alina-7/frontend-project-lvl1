@@ -1,6 +1,6 @@
 
 
-import startGame from '../src/index.js';
+import startGame from '../index.js';
 const instruction = 'What number is missing in the progression?';
 
  function getProgression () {
