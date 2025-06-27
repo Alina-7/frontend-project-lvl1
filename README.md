@@ -11,3 +11,6 @@ https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
 
 Аскинема brain-gcd:
 https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
+
+Аскинема brain-progression:
+https://asciinema.org/connect/9341ce65-118b-4bfb-b5d3-30678466e277
