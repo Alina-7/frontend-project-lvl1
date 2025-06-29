@@ -14,8 +14,6 @@ function getProgression() {
     return progression
 }
 
-
-
 function getrProgQuestion() {
     const progression = getProgression()
     const point = '..';

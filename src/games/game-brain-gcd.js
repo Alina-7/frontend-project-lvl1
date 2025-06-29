@@ -10,7 +10,6 @@ const calculateGcd = (a, b) => {
     return a;
 }
 
-
 function getGcdQuestion() {
     const a = Math.floor(Math.random() * 100) + 1;
     const b = Math.floor(Math.random() * 100) + 1;
@@ -19,7 +18,7 @@ function getGcdQuestion() {
     return {
         instruction: instruction,
         question: question,
-        correctAnswer: correct
+        correctAnswer: correct,
     }
 }
 

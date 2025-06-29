@@ -12,8 +12,7 @@ const isPrime = (number) => {
 }
 
 function getPrimeQuestion() {
-    const number = Math.floor(Math.random() * 100) + 1;;
-
+    const number = Math.floor(Math.random() * 100) + 1;
     const correct = isPrime(number) ? 'yes' : 'no';
     return {
         instruction: instruction,

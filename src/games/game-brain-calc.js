@@ -3,11 +3,11 @@ const instruction = 'What is the result of the expression?'
 
 function calculate(firstNumber, secondNumber, operator) {
     switch (operator) {
-        case "+":
+        case '+':
             return firstNumber + secondNumber;
-        case "-":
+        case '-':
             return firstNumber - secondNumber;
-        case "*":
+        case '*':
             return firstNumber * secondNumber;
     }
 }
@@ -23,7 +23,7 @@ function getCalcQuestion() {
     return {
         instruction: instruction,
         question: task,
-        correctAnswer: correct
+        correctAnswer: correct,
     }
 }
 startGame(instruction, getCalcQuestion)
