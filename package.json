@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "brain-games": "node bin/brain-games.js",
+    "brain-even": "node bin/brain-even.js",
+    "brain-calc": "node bin/brain-calc.js",
+    "brain-gcd": "node bin/brain-gcd.js",
+    "brain-prime": "node bin/brain-prime.js",
+    "brain-progression": "node bin/brain-progression.js"
   },
   "repository": {
     "type": "git",
