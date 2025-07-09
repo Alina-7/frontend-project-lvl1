@@ -1,5 +1,5 @@
-function getRandomNumber(max, min) {
-  const number = Math.floor(Math.random() * (max - min) + min)
+function getRandomNumber(maxNum, minNum) {
+  const number = Math.floor(Math.random() * (maxNum - minNum) + minNum)
   return number
 }
 
